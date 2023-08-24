@@ -1,0 +1,6 @@
+export const aboutData = {
+    title: "Who I am",
+    description1: "I am a software engineer currently pursuing a graduate program at the University of Alabama in Huntsville. I worked as a Software Engineer and Team Lead at Gurzu Inc. where I led a team to create diverse web solutions, integrating social media into digital signage and developing innovative applications for log analysis and threat detection. My proficiency spans various domains, encompassing web (full stack) and desktop app development, AWS services.",
+    description2: "At present, I am actively engaged as a graduate research assistant, within the NASA Global Hydrology Resource Center Distributed Active Archive Center (GHRC DAAC) channeling my expertise towards data processing and geo-spatial visualization. With my research role I contribute to cutting-edge projects involving vast datasets collected from diverse instruments and field campaigns.  This opportunity allows me to delve into the realm of big data, applying my skills for data preprocessing and geo spatial visualization in cloud.",
+    image: 2
+}
