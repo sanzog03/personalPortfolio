@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { Button } from '@material-ui/core';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 import { makeStyles } from '@material-ui/core/styles';
@@ -7,6 +7,7 @@ import './Landing.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
+import { PDFReader } from '../PDFReader/PDFReader';
 
 import {
     FaTwitter,
@@ -16,8 +17,13 @@ import {
     FaBlogger,
 } from 'react-icons/fa';
 
+function onClickHandler(event) {
+
+}
+
 function Landing() {
     const { theme, drawerOpen } = useContext(ThemeContext);
+    const [ viewPDFReader, setPDFReader ] = useState(false);
 
     const useStyles = makeStyles((t) => ({
         resumeBtn: {
@@ -69,6 +75,8 @@ function Landing() {
 
     return (
         <div className='landing'>
+            { viewPDFReader && <PDFReader url={headerData.resumePdf}/>
+            }
             <div className='landing--container'>
                 <div
                     className='landing--container-left'
@@ -165,16 +173,16 @@ function Landing() {
 
                         <div className='lcr-buttonContainer'>
                             {headerData.resumePdf && (
-                                <a
-                                    href={headerData.resumePdf}
-                                    download='resume'
-                                    target='_blank'
-                                    rel='noreferrer'
-                                >
-                                    <Button className={classes.resumeBtn}>
-                                        Download CV
-                                    </Button>
-                                </a>
+                                // <a
+                                //     href={headerData.resumePdf}
+                                //     download='resume'
+                                //     target='_blank'
+                                //     rel='noreferrer'
+                                // >
+                                <Button className={classes.resumeBtn} onClick={() => setPDFReader(!viewPDFReader)}>
+                                    Download CV
+                                </Button>
+                                // </a>
                             )}
                             <NavLink
                                 to='/#contacts'
