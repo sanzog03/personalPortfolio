@@ -4,3 +4,8 @@
     /* --primaryFont: 'Raleway', sans-serif; */
 }
 
+.center-elements-horizontally {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
