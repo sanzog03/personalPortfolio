@@ -1,23 +1,30 @@
 export const experienceData = [
     {
         id: 1,
-        company: 'Technorio Inc',
-        jobtitle: 'Internship',
-        startYear: '2019',
-        endYear: '2019'
+        company: 'NASA GHRC DAAC, ITSC UAH',
+        jobtitle: 'Full Stack / Graduate Research Assistant',
+        startYear: '2022',
+        endYear: 'Present'
     },
     {
         id: 2,
-        company: 'Gurzu Inc',
-        jobtitle: 'Software Developer',
-        startYear: '2019',
+        company: 'GURZU INC',
+        jobtitle: 'Software Engineer',
+        startYear: '2020',
         endYear: '2022'
     },
     {
         id: 3,
-        company: 'NASA GHRC, ITSC, UAH',
-        jobtitle: 'Research Assistant',
-        startYear: '2022',
-        endYear: 'Present'
-    }
+        company: 'JYAASA TECHNOLOGIES',
+        jobtitle: 'Associate Software Engineer',
+        startYear: '2019',
+        endYear: '2020'
+    },
+    {
+        id: 4,
+        company: 'TECHNORIO INC',
+        jobtitle: 'Internship',
+        startYear: '2018',
+        endYear: '2018'
+    },
 ]

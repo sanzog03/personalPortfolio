@@ -1,10 +1,10 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Prasadi Academy, Nepal',
-        course: 'Higher Secondary Education',
-        startYear: '2012',
-        endYear: '2014'
+        institution: 'The University of Alabama in Huntsville, USA',
+        course: 'Master in Computer and Information Science',
+        startYear: 'August 2022',
+        endYear: 'Present'
     },
     {
         id: 2,
@@ -15,9 +15,9 @@ export const educationData = [
     },
     {
         id: 3,
-        institution: 'The University of Alabama in Huntsville, USA',
-        course: 'Master in Computer and Information Science',
-        startYear: 'August 2022',
-        endYear: 'Present'
-    },
+        institution: 'Prasadi Academy, Nepal',
+        course: 'Higher Secondary Education',
+        startYear: '2012',
+        endYear: '2014'
+    }
 ]

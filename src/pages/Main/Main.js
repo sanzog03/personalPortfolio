@@ -13,7 +13,7 @@ function Main() {
 
             <Navbar />        
             <Landing />
-            <About />
+            {/* <About /> */}
             <Education />
             <Skills />
             <Experience />
