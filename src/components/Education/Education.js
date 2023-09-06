@@ -12,7 +12,13 @@ function Education() {
     const { theme } = useContext(ThemeContext);
     return (
         <div className="education" id="resume" style={{backgroundColor: theme.secondary}}>
-           
+            {/* <div className="about" id="about" style={{backgroundColor: theme.secondary}}> */}
+                <div className="line-styling">
+                <div className="style-circle" style={{backgroundColor: theme.primary}}></div>
+                <div className="style-circle" style={{backgroundColor: theme.primary}}></div>
+                <div className="style-line" style={{backgroundColor: theme.primary}}></div>
+                {/* </div> */}
+            </div>
             <div className="education-body">
                 <div className="education-description">
                 <h1 style={{color:theme.primary}}>Education</h1>
