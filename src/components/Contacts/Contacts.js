@@ -311,9 +311,7 @@ function Contacts() {
                                 {contactsData.address}
                             </p>
                         </div>
-                    </div>
-                </div>
-                <div className='center-elements-horizontally'>
+                        <div className='show-on-mobile'>
                             <div className='socialmedia-icons'>
                                 {socialsData.twitter && (
                                     <a
@@ -426,6 +424,9 @@ function Contacts() {
                                     </a>
                                 )}
                             </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <img
