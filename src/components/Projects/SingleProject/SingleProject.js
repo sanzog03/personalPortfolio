@@ -42,15 +42,15 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                 style={{ backgroundColor: theme.primary400 }}
             >
                 <div className='projectContent'>
-                    <h1
+                    <h4
                         id={name.replace(' ', '-').toLowerCase()}
                         style={{ color: theme.tertiary }}
                     >
                         {name}
-                    </h1>
+                    </h4>
                     {/* <img src={image ? image : placeholder} alt={name} /> */}
                     <div className='project--showcaseBtn'>
-                        {(demo != "") && (
+                        {(demo) && (
                             <a
                                 href={demo}
                                 target='_blank'
@@ -73,7 +73,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                         )}
                         
                         {
-                            (code != "") && (
+                            (code) && (
                                 <a
                                     href={code}
                                     target='_blank'
@@ -98,7 +98,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                         
                     </div>
                 </div>
-                <p
+                {/* <p
                     className='project--desc'
                     style={{
                         background: theme.secondary,
@@ -106,7 +106,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                     }}
                 >
                     {desc}
-                </p>
+                </p> */}
                 <div
                     className='project--lang'
                     style={{

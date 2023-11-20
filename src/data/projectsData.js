@@ -11,78 +11,74 @@ import eight from '../assets/svg/projects/eight.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'FCX Field Campaign Explorer',
+        projectName: 'FCX (Field Campaign Explorer)',
         projectDesc: 'Engineered a cloud-based simulation visualization system. This system renders big data collected during NASA field campaigns (OLYMPEX, CPEX-AW, HS3) over a 3D globe.',
-        tags: ['React', 'Redux', 'Cesium' ,'Python', 'AWS'],
+        tags: ['ReactJS', 'Redux', 'Cesium', 'MUI'],
         code: 'https://github.com/ghrcdaac/FCX-Frontend',
-        demo: 'http://ghrc-fcx-olympex-flight-campaign-demo-szg.s3-website-us-east-1.amazonaws.com',
-        image: six
+        demo: 'https://ghrc.earthdata.nasa.gov/fcx/index.html',
     },
     {
         id: 2,
-        projectName: 'FCX Subsetting Tool',
-        projectDesc: 'A service for FCX field campaign explorer, that utilizes a serverless microservice architecture on AWS. This tool enables the subsetting of prime instrument data based on custom parameters, streamlining data processing for research purposes.',
-        tags: ['AWS', 'Python', 'Terraform'],
-        code: 'https://github.com/ghrcdaac/fcx-subsetting-tool',
-        demo: 'http://ghrc-fcx-subsetting-tool-szg.s3-website-us-west-2.amazonaws.com',
-        image: seven
+        projectName: 'FCX : Backend',
+        projectDesc: 'Engineered a cloud-based simulation visualization system. This system renders big data collected during NASA field campaigns (OLYMPEX, CPEX-AW, HS3) over a 3D globe.',
+        tags: ['Python', 'AWS'],
+        code: 'https://github.com/ghrcdaac/FCX-Backend',
     },
     {
         id: 3,
-        projectName: 'FCX Histogram Tool',
-        projectDesc: 'A service for FCX field campaign explorer, using serverless architecture in AWS infrastructure (dockerized lambdas) for 2D histogram representation of large datasets collected during the NASA GOES-R Field Campaign.',
-        tags: ['AWS', 'Python', 'Docker', 'Terraform'],
-        code: 'https://github.com/ghrcdaac/FCX-Histogram',
-        demo: 'http://ghrc-fcx-histogram-tool-szg.s3-website-us-east-1.amazonaws.com',
-        image: eight
+        projectName: 'FCX : Subsetting Tool',
+        tags: ['Python', 'AWS Lambda', 'Terraform'],
+        code: 'https://github.com/ghrcdaac/fcx-subsetting-tool'
     },
     {
         id: 4,
-        projectName: 'UWG Lightning Dashboard interactive Notebook',
-        projectDesc: 'Designed a lightning data visualization using NASA Lightning Data via WMTS over Mapbox in a live notebook environment. This dashboard was employed during UWG meetups for real-time lightning data analysis.',
-        tags: ['Python', 'Plotly', 'Rasterio', 'Matplotlib'],
-        code: 'https://github.com/ghrcdaac/UWG-Colab-Notebook',
-        demo: '',
-        image: five
+        projectName: 'FCX : Histogram Tool',
+        tags: ['Python', 'Docker', 'AWS Lamdba', 'Terraform'],
+        code: 'https://github.com/ghrcdaac/FCX-Histogram',
     },
     {
         id: 5,
-        projectName: 'ISM Publish',
-        projectDesc: 'This project aims to build an end to end digital signage solution, including media inventory, campaign creator and proof of play system.',
-        tags: ['React', 'Electron', 'Mongo', 'AMQP'],
-        code: '',
-        demo: '',
-        image: one
+        projectName: 'FCX : Playground Package',
+        projectDesc: '',
+        tags: ['Python', 'Scipy', 'Notebook', 'Docker'],
+        code: 'https://github.com/ghrcdaac/fcx-playground-backend',
+        demo: 'https://pypi.org/project/fcx-playground/',
     },
     {
         id: 6,
-        projectName: 'Splashnode',
-        projectDesc: 'With a license from ISM publish, curated a digital signage solution for Nepal, which is currently being used by several big digital media houses.',
-        tags: ['Expres', 'React', 'Ruby', 'Electron'],
-        demo: 'https://www.splashnode.com/',
-        code: '',
-        image: three
+        projectName: 'FCX : Playground Frontend',
+        projectDesc: '',
+        tags: ['ReactJS', 'Redux', 'Cesium', 'MUI'],
+        code: 'https://github.com/ghrcdaac/fcx-playground-frontend',
+        demo: 'https://ghrc.earthdata.nasa.gov/fcx-playground',
     },
     {
         id: 7,
-        projectName: 'Spectrapass',
-        projectDesc: 'This project facilitated data collection, patient forms, and result tracking. SpectraPass was created with the mission to help keep businesses and our economy open through current and future pandemics by allowing healthy people to go about their everyday lives.',
-        tags: ['JQuery', 'CSS', 'HTML'],
-        code: '',
-        demo: '',
-        image: two
+        projectName: 'FCX : GraphQL backend',
+        tags: ['Python', 'Django', 'GraphQL', 'Postgresql', 'Docker', 'Terraform'],
+        code: 'https://github.com/sanzog03/fcx_backend_api',
     },
     {
         id: 8,
-        projectName: 'Gurzu Log Analysis Tool',
-        projectDesc: 'This project involves a ReactJs-based web solution for log analysis and threat detection, leveraging Kibana for pattern recognition of threat anomalies. Assisted in training a Machine Learning model for anomaly detection.',
-        tags: ['React', 'Kibana'],
-        code: '',
-        demo: '',
-        image: four
+        projectName: 'Spectrapass',
+        projectDesc: 'This project facilitated data collection, patient forms, and result tracking. SpectraPass was created with the mission to help keep businesses and our economy open through current and future pandemics by allowing healthy people to go about their everyday lives.',
+        tags: ['ReactJS', 'CSS', 'HTML'],
+        demo: 'https://spectrapass.com/'
     },
-
-
+    {
+        id: 9,
+        projectName: 'ISM Publish',
+        projectDesc: 'This project aims to build an end to end digital signage solution, including media inventory, campaign creator and proof of play system.',
+        tags: ['ReactJS', 'ElectronJS', 'MongoDB', 'AMQP'],
+        demo: 'https://mps.ismconnect.com/'
+    },
+    {
+        id: 10,
+        projectName: 'Splashnode',
+        projectDesc: 'With a license from ISM publish, curated a digital signage solution for Nepal, which is currently being used by several big digital media houses.',
+        tags: ['ExpressJS', 'ReactJS', 'Ruby', 'ElectronJS', 'MongoDB'],
+        demo: 'https://www.splashnode.com/'
+    },
 ]
 
 
@@ -94,7 +90,7 @@ export const projectsData = [
     id: 1,
     projectName: 'Car Pooling System',
     projectDesc: '',
-    tags: ['Flutter', 'React'],
+    tags: ['Flutter', 'ReactJS'],
     code: '',
     demo: '',
     image: ''

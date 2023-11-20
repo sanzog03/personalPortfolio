@@ -1,7 +1,7 @@
 .singleProject {
     box-shadow: 4px 4px 8px rgba(36, 3, 3, 0.2);
     width: 304px;
-    height: 360px;
+    height: 200px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -22,7 +22,7 @@
     height: 100%;
 }
 
-.projectContent > h2 {
+.projectContent > h4 {
     font-family: var(--primaryFont);
     font-style: normal;
     font-weight: 600;
