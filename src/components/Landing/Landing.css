@@ -226,7 +226,7 @@
 }
 @media (max-width: 376px) { /* fix for small screen size */
   .landing {
-    height: 150vh;
+    height: 130vh;
   }
 
   .lcr--content {
