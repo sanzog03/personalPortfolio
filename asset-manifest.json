@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.c22c0397.chunk.css",
-    "main.js": "/static/js/main.069162c9.chunk.js",
-    "main.js.map": "/static/js/main.069162c9.chunk.js.map",
+    "main.css": "/static/css/main.38d06c7c.chunk.css",
+    "main.js": "/static/js/main.ba883ed4.chunk.js",
+    "main.js.map": "/static/js/main.ba883ed4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.472e8914.js",
     "runtime-main.js.map": "/static/js/runtime-main.472e8914.js.map",
     "static/css/2.19627560.chunk.css": "/static/css/2.19627560.chunk.css",
@@ -12,10 +12,11 @@
     "static/js/3.07ace56b.chunk.js.map": "/static/js/3.07ace56b.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.19627560.chunk.css.map": "/static/css/2.19627560.chunk.css.map",
-    "static/css/main.c22c0397.chunk.css.map": "/static/css/main.c22c0397.chunk.css.map",
+    "static/css/main.38d06c7c.chunk.css.map": "/static/css/main.38d06c7c.chunk.css.map",
     "static/js/2.bc309805.chunk.js.LICENSE.txt": "/static/js/2.bc309805.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/BestermindRegular.e58a1922.ttf",
     "static/media/Nodejs.dd47e26e.svg": "/static/media/Nodejs.dd47e26e.svg",
+    "static/media/Sanjog_Thapa_Resume.c568bb46.pdf": "/static/media/Sanjog_Thapa_Resume.c568bb46.pdf",
     "static/media/adobe-xd.a6dca99d.svg": "/static/media/adobe-xd.a6dca99d.svg",
     "static/media/adobeaudition.afa937d5.svg": "/static/media/adobeaudition.afa937d5.svg",
     "static/media/after-effects.3c076652.svg": "/static/media/after-effects.3c076652.svg",
@@ -127,7 +128,6 @@
     "static/media/react.2b6a0717.svg": "/static/media/react.2b6a0717.svg",
     "static/media/redTheme-boy.846d9d39.svg": "/static/media/redTheme-boy.846d9d39.svg",
     "static/media/redTheme-girl.1ebbd52c.svg": "/static/media/redTheme-girl.1ebbd52c.svg",
-    "static/media/resume.810ad67e.pdf": "/static/media/resume.810ad67e.pdf",
     "static/media/ruby.34e792ab.svg": "/static/media/ruby.34e792ab.svg",
     "static/media/selenium.7dcf1c14.svg": "/static/media/selenium.7dcf1c14.svg",
     "static/media/seven.3168c0a5.svg": "/static/media/seven.3168c0a5.svg",
@@ -156,7 +156,7 @@
     "static/js/runtime-main.472e8914.js",
     "static/css/2.19627560.chunk.css",
     "static/js/2.bc309805.chunk.js",
-    "static/css/main.c22c0397.chunk.css",
-    "static/js/main.069162c9.chunk.js"
+    "static/css/main.38d06c7c.chunk.css",
+    "static/js/main.ba883ed4.chunk.js"
   ]
 }
