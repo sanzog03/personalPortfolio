@@ -3,8 +3,8 @@ export const educationData = [
         id: 1,
         institution: 'The University of Alabama in Huntsville, USA',
         course: 'Master in Computer and Information Science',
-        startYear: 'August 2022',
-        endYear: 'Present'
+        startYear: 'Aug 2022',
+        endYear: 'Dec 2023'
     },
     {
         id: 2,
