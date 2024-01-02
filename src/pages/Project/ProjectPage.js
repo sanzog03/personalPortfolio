@@ -6,9 +6,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import { AiOutlineHome } from "react-icons/ai";
 
 import './ProjectPage.css'
-import { SingleProject } from '../../components';
+import { ExtendedSingleProject } from '../../components';
 import { ThemeContext } from '../../contexts/ThemeContext';
-import { projectsData } from '../../data/projectsData'
+import { projectsData } from '../../data/extendedProjectsData'
 import { headerData } from '../../data/headerData'
 
 function ProjectPage() {
@@ -83,21 +83,22 @@ function ProjectPage() {
                    <input type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search project..." className={classes.search} />
                </div>
                <div className="project-container">
-                   <Grid className="project-grid" container direction="row" alignItems="center" justifyContent="center">
+                   {/* <Grid className="project-grid" container direction="row" alignItems="center" justifyContent="center"> */}
                         {filteredArticles.map(project => (
-                            <SingleProject
+                            <ExtendedSingleProject
                                 theme={theme}
                                 key={project.id}
                                 id={project.id}
                                 name={project.projectName}
                                 desc={project.projectDesc}
+                                moreDesc={project.moreDesc}
                                 tags={project.tags}
-                                code={project.code}
-                                demo={project.demo}
+                                codes={project.codes}
+                                demos={project.demos}
                                 image={project.image} 
                             />
                         ))}
-                   </Grid>
+                   {/* </Grid> */}
                </div>
            </div>    
         </div>

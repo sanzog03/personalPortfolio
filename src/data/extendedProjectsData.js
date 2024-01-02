@@ -1,0 +1,30 @@
+export const projectsData = [
+    {
+        id: 1,
+        projectName: 'Field Campaign Explorer',
+        projectDesc: 'Engineered a cloud-based simulation visualization system. This system renders big data collected during NASA field campaigns (OLYMPEX, CPEX-AW, HS3) over a 3D globe.',
+        moreDesc: ["Did this first thing", "Then did this second thing"],
+        image: "/project_images/FCX.png",
+        tags: ['ReactJS', 'Redux', 'Cesium', 'MUI'],
+        codes: ['https://github.com/ghrcdaac/FCX-Frontend'],
+        demos: ['https://ghrc.earthdata.nasa.gov/fcx/index.html'],
+    },
+    {
+        id: 2,
+        projectName: 'FCX (Field Campaign Explorer)',
+        projectDesc: 'Engineered a cloud-based simulation visualization system. This system renders big data collected during NASA field campaigns (OLYMPEX, CPEX-AW, HS3) over a 3D globe.',
+        image: "/project_images/FCX.png",
+        tags: ['ReactJS', 'Redux', 'Cesium', 'MUI'],
+        codes: ['https://github.com/ghrcdaac/FCX-Frontend'],
+        demos: ['https://ghrc.earthdata.nasa.gov/fcx/index.html'],
+    },
+    {
+        id: 3,
+        projectName: 'FCX (Field Campaign Explorer)',
+        projectDesc: 'Engineered a cloud-based simulation visualization system. This system renders big data collected during NASA field campaigns (OLYMPEX, CPEX-AW, HS3) over a 3D globe.',
+        image: "/project_images/FCX.png",
+        tags: ['ReactJS', 'Redux', 'Cesium', 'MUI'],
+        codes: ['https://github.com/ghrcdaac/FCX-Frontend'],
+        demos: ['https://ghrc.earthdata.nasa.gov/fcx/index.html'],
+    },
+]
